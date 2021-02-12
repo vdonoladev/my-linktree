@@ -15,8 +15,13 @@ li {
 }
 
 body {
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(31,154,179,1) 100%);
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(31, 154, 179, 1) 100%
+  );
   font-family: "Nunito", sans-serif;
 
   display: flex;
@@ -36,12 +41,12 @@ body {
 }
 
 .container .profile {
-    width: 104px;
-    margin-bottom: 20px;
-    height: 104px;
-    border-radius: 50%;
-    object-fit: cover;
-    z-index: 99;
+  width: 104px;
+  margin-bottom: 20px;
+  height: 104px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 99;
 }
 
 .container h2 {
