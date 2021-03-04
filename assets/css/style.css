@@ -21,12 +21,13 @@ body {
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 9, 121, 1) 35%,
     rgba(31, 154, 179, 1) 100%
-  );
+    );
   font-family: "Nunito", sans-serif;
 
   display: flex;
   justify-content: center;
   position: relative;
+  overflow-y: hidden;
 }
 
 .container {
