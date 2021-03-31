@@ -14,7 +14,7 @@ li {
 }
 
 body {
-  background: linear-gradient(101.07deg, #2e3c87 7.93%, #5e17eb 93.3%);
+  background: linear-gradient(101.07deg, #020024 7.93%, #090979 93.3%);
   font-family: "Nunito", sans-serif;
   display: flex;
   justify-content: center;
@@ -96,7 +96,7 @@ body {
 .content {
   padding: 50px 30px 20px;
   width: 100%;
-  color: #5e17eb;
+  color: #0f0f13;
   overflow: hidden;
   position: relative;
 }
@@ -178,7 +178,7 @@ body {
   border: 1px solid #bcbcbc;
   border-radius: 16px;
   text-decoration: none;
-  color: #5e17eb;
+  color: #0f0f13;
   cursor: pointer;
   -webkit-box-shadow: 4px 4px 18px -5px rgba(179, 179, 179, 0.72);
   -moz-box-shadow: 4px 4px 18px -5px rgba(179, 179, 179, 0.72);
