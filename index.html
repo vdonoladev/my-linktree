@@ -1,63 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <title>vdonoladev</title>
-  <link
-  rel="icon"
-  type="image/x-icon"
-  sizes="16x16"
-  href="assets/img/favicon.png"
-  />
+  <title>My Linktree - vdonoladev</title>
 </head>
+
 <body>
+  <div id="particles-js"></div>
   <div class="container">
-    <img
-    src="assets/img/profile-photo.jpg"
-    alt="Foto de Perfil"
-    class="profile"
-    />
+    <img class="profile" src="assets/img/profile-photo.jpg" />
 
     <h2>Víctor Donola Ferreira</h2>
-    <p class="subtitle">Desenvolvedor</p>
+    <p class="subtitle">FrontEnd Developer</p>
+    <p>Acompanhe meu trabalho ✌🏻</p>
 
     <div class="info-container">
       <div class="social-media-container">
-        <a href="https://github.com/vdonoladev" target="_blank">
+        <a href="https://github.com/vdonoladev">
           <i data-feather="github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/vdonoladev/" target="_blank">
-          <i data-feather="linkedin"></i>
-        </a>
-        <a href="mailto: contato.vdonoladev@gmail.com" target="_blank">
-          <i data-feather="mail"></i>
-        </a>
+        <a href="https://www.linkedin.com/in/vdonoladev/"><i data-feather="linkedin"></i></a>
+        <a href="mailto: contato.vdonoladev@gmail.com"><i data-feather="mail"></i></a>
       </div>
+
       <div class="content">
-        <a href="https://www.goodreads.com/vdonoladev" target="_blank" class="link">GoodReads</a>
-        <a
-        href="https://app.rocketseat.com.br/me/vdonoladev"
-        target="_blank"
-        class="link"
-        >Rocketseat</a
-        >
-        <a
-        href="https://www.instagram.com/vdonoladev/"
-        target="_blank"
-        class="link"
-        >Instagram</a
-        >
-        <a href="https://t.me/vdonoladev" target="_blank" class="link"
-        >Telegram</a
-        >
-        <a href="https://codepen.io/vdonoladev" target="_blank" class="link"
-        >Codepen</a
-        >
-        <a href="https://twitter.com/vdonoladev" target="_blank" class="link"
-        >Twitter</a
-        >
+        <div id="secondary-content" class="secondary-content">
+          <h3> <i id="go-back-button" data-feather="arrow-left"></i> Redes Sociais</h3>
+          <a href="https://www.goodreads.com/vdonoladev" target="_blank" class="link">GoodReads</a>
+          <a href="https://www.facebook.com/vdonoladev" target="_blank" class="link">Facebook</a>
+          <a href="https://www.instagram.com/vdonoladev/" target="_blank" class="link">Instagram</a>
+          <a href="https://t.me/vdonoladev" target="_blank" class="link">Telegram</a>
+          <a href="https://twitter.com/vdonoladev" target="_blank" class="link">Twitter</a>
+        </div>
+        <div class="main-content">
+          <p>Vídeo recomendado 👇🏻</p>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/oUPaJxk6TZ0" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <a href="https://github.com/vdonoladev/aprendendo-programacao" class="link highlight" target="_blank">
+            ⭐️ Aprendendo Programação
+          </a>
+          <a id="setup-button" class="link">
+            📱 Redes Sociais
+          </a>
+          <a class="link" href="https://blogvdonoladev.wordpress.com/" target="_blank">
+            📝 Meu Blog
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -65,5 +60,96 @@
 <script src="https://unpkg.com/feather-icons"></script>
 <script>
   feather.replace();
+</script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: {
+        value: 1200,
+        density: { enable: true, value_area: 789.1476416322727 }
+      },
+      color: {
+        value: "#ffffff"
+      },
+      shape: {
+        type: "circle",
+        stroke: { width: 0, color: "#000000" },
+        polygon: { nb_sides: 5 },
+        image: { src: "img/github.svg", width: 100, height: 100 }
+      },
+      opacity: {
+        value: 0.48927153781200905,
+        random: false,
+        anim: { enable: true, speed: 0.2, opacity_min: 0, sync: false }
+      },
+      size: {
+        value: 2,
+        random: true,
+        anim: { enable: true, speed: 2, size_min: 0, sync: false }
+      },
+      line_linked: {
+        enable: false,
+        distance: 150,
+        color: "#ffffff",
+        opacity: 0.4,
+        width: 1
+      },
+      move: {
+        enable: true,
+        speed: 1,
+        direction: "none",
+        random: true,
+        straight: false,
+        out_mode: "out",
+        bounce: false,
+        attract: { enable: false, rotateX: 600, rotateY: 1200 }
+      }
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: {
+          enable: true,
+          mode: "bubble"
+        },
+        onclick: { enable: true, mode: "push" },
+        resize: true
+      },
+      modes: {
+        grab: { distance: 400, line_linked: { opacity: 1 } },
+        bubble: {
+          distance: 83.91608391608392,
+          size: 1,
+          duration: 3,
+          opacity: 1,
+          speed: 3
+        },
+        repulse: { distance: 200, duration: 0.4 },
+        push: { particles_nb: 4 },
+        remove: {
+          particles_nb: 2
+        }
+      }
+    },
+    retina_detect: true
+  });
+</script>
+<script>
+  const setupButton = document.getElementById("setup-button");
+  const goBackButton = document.getElementById("go-back-button");
+
+  setupButton.addEventListener("click", showContent);
+  goBackButton.addEventListener("click", hideContent);
+
+  function showContent() {
+    document.getElementById("secondary-content").classList.remove("hide");
+    document.getElementById("secondary-content").classList.add("show");
+  }
+
+  function hideContent() {
+    document.getElementById("secondary-content").classList.remove("show");
+    document.getElementById("secondary-content").classList.add("hide");
+  }
 </script>
 </html>
