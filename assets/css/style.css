@@ -81,7 +81,7 @@ body {
 }
 
 .social-media-container svg {
-  color: #5e17eb;
+  color: #090979;
 }
 
 .info-container {
@@ -186,8 +186,8 @@ body {
 }
 
 .link.highlight {
-  background: #5e17eb;
-  border: 1px solid #5e17eb;
+  background: #090979;
+  border: 1px solid #090979;
   color: #fff;
   font-weight: bold;
 }
